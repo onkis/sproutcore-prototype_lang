@@ -17,11 +17,11 @@ A build of only the prototype language extensions for use in a sproutcore applic
 To see specific docs check out http://prototypejs.org/api/
 
 To install run:
-  sc-install onkis-prototype-lang
+  sc-install onkis-prototype_lang
 
 Then edit your sc-config to include the framework:
 
-  c[:required] = [:sproutcore, :'onkis-prototype-lang']
+  c[:required] = [:sproutcore, :'onkis-prototype_lang']
 
 You'll need to restart sc-server to see the change.
 
