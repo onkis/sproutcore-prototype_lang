@@ -1,0 +1,27 @@
+A build of only the prototype language extensions for use in a sproutcore application.  
+  ========== Included ========
+  Class
+  Object
+  Date
+  RegExp
+  String
+  Enumerable
+  Array
+  Hash
+  Number
+  Function
+  Range
+  Template
+  PeriodicalExecuter
+
+To see specific docs check out http://prototypejs.org/api/
+
+To install run:
+  sc-install onkis-prototype-lang
+
+Then edit your sc-config to include the framework:
+
+  c[:required] = [:sproutcore, :'onkis-prototype-lang']
+
+You'll need to restart sc-server to see the change.
+
